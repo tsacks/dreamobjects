@@ -1,4 +1,4 @@
-=== DreamObjects Connection ===
+=== DreamObjects Backup Connection ===
 Contributors: Ipstenu, DanCoulter
 Tags: cloud, dreamhost, dreamobjects, backup
 Requires at least: 3.4
@@ -13,7 +13,7 @@ Backup your WordPress site to DreamHost's DreamObjects.
 
 DreamHost has its own Cloud - <a href="http://dreamhost.com/cloud/dreamobjects/">DreamObjects&#153;</a> - an inexpensive, scalable object storage service that was developed from the ground up to provide a reliable, flexible cloud storage solution for entrepreneurs and developers. It provides a perfect, scalable storage solution for your WordPress site.
 
-Well now that we've gotten the sales-pitch out of the way, DreamObjects Connections will plugin your WordPress site into DreamObjects, tapping into the amazing power of automated backups!
+Well now that we've gotten the sales-pitch out of the way, DreamObjects Backup Connections will plugin your WordPress site into DreamObjects, tapping into the amazing power of automated backups!
 
 <em>Please do not open DreamHost Support Tickets for this plugin.</em> Honestly, the support techs are fantastic, but they can't debug this yet, so they'll just send you here anyway. Post in the <a href="http://wordpress.org/support/plugin/dreamobjects">support forum here</a>, and I'll get to you ASAP.
 
@@ -49,7 +49,7 @@ Well now that we've gotten the sales-pitch out of the way, DreamObjects Connecti
 
 <strong>What does it do?</strong>
 
-DreamObjects Connection connects your WordPress site to your DreamObjects cloud storage, allowing you to automatically store backups of your content.
+DreamObjects Backup Connection connects your WordPress site to your DreamObjects cloud storage, allowing you to automatically store backups of your content.
 
 <strong>Do you work for DreamHost?</strong>
 

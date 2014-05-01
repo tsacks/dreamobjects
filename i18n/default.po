@@ -426,7 +426,7 @@ msgstr ""
 
 #: ../lib/messages.php:54
 msgid ""
-"Error: The DreamObjects Connection plugin requires PHP 5.3 or higher to run. "
+"Error: The DreamObjects Backup Connection plugin requires PHP 5.3 or higher to run. "
 "Please upgrade your PHP or this plugin will not function correctly.)"
 msgstr ""
 

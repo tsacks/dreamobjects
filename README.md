@@ -1,4 +1,4 @@
-# DreamObjects Connection #
+# DreamObjects Backup Connection #
 **Tags:** cloud, dreamhost, dreamobjects, backup  
 **Requires at least:** 3.4  
 **Tested up to:** 3.5  

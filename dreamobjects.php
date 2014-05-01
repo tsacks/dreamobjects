@@ -1,10 +1,10 @@
 <?php
 
 /*
-Plugin Name: DreamObjects Connection
+Plugin Name: DreamObjects Backup Connection
 Plugin URI: https://github.com/Ipstenu/dreamobjects
 Description: Connect your WordPress install to your DreamHost DreamObjects buckets.
-Version: 3.4.3
+Version: 4.0
 Author: Mika Epstein
 Author URI: http://ipstenu.org/
 Network: false
@@ -57,11 +57,16 @@ if ( is_admin() && ( !defined( 'DOING_AJAX' ) || !DOING_AJAX ) ) {
 		dreamobjects_core_incompatibile( __( 'The official Amazon Web Services SDK, which DreamObjects relies on, requires that cURL is compiled with zlib. The plugin has now disabled itself.', 'dreamobjects' ) );
 	}
 }
+
+require_once 'vendor/aws/aws-autoloader.php';
+require_once 'classes/plugin-base.php';
+require_once 'classes/dreamobjects.php';
+require_once 'backups/backup-base.php';
  
-require_once dirname(__FILE__) . '/lib/defines.php';
-require_once dirname(__FILE__) . '/lib/dhdo.php';
-require_once dirname(__FILE__) . '/lib/messages.php';
-require_once dirname(__FILE__) . '/lib/settings.php';
+require_once '/lib/defines.php';
+require_once '/lib/dhdo.php';
+require_once '/lib/messages.php';
+require_once '/lib/settings.php';
 
 // WP-CLI
 if ( defined('WP_CLI') && WP_CLI ) {

@@ -51,7 +51,7 @@ class DHDOMESS {
     }
 
     public static function oldPHPError() {
-        echo "<div id='message' class='error fade'><p><strong>".__('Error: The DreamObjects Connection plugin requires PHP 5.3 or higher to run. Please upgrade your PHP or this plugin will not function correctly.)', dreamobjects)."</strong></p></div>";
+        echo "<div id='message' class='error fade'><p><strong>".__('Error: The DreamObjects Backup Connection plugin requires PHP 5.3 or higher to run. Please upgrade your PHP or this plugin will not function correctly.)', dreamobjects)."</strong></p></div>";
     }
 
 
