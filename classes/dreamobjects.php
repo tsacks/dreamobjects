@@ -12,10 +12,10 @@
 
 */
 
-if ( !class_exists(Aws) ) {
+//if ( !class_exists(Aws) ) {
 	require_once 'vendor/aws/aws-autoloader.php';
 	use Aws\Common\Aws as Aws;
-}
+//}
 
 class DreamObjects_DHO_Services extends DreamObjects_Plugin_Base {
 
