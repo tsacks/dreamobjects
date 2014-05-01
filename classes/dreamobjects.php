@@ -12,7 +12,8 @@
 
 */
 
-if ( !Aws || !AwsCDN ) {
+if ( !class_exists(Aws) ) {
+	require_once 'vendor/aws/aws-autoloader.php';
 	use Aws\Common\Aws as Aws;
 }
 
