@@ -73,7 +73,7 @@ function dreamobjects_core_init() {
     $dreamobjects_core = new DreamObjects_DHO_Services( __FILE__ );
 }
 
-add_action( 'init', 'dreamspeed_core_init' );
+add_action( 'init', 'dreamobjects_core_init' );
 
 // WP-CLI
 if ( defined('WP_CLI') && WP_CLI ) {
