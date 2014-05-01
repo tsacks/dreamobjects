@@ -68,6 +68,13 @@ require_once 'backups/backup-base.php';
 //require_once '/lib/messages.php';
 //require_once '/lib/settings.php';
 
+function dreamobjects_core_init() {
+    global $dreamobjects_core;
+    $dreamobjects_core = new DreamObjects_DHO_Services( __FILE__ );
+}
+
+add_action( 'init', 'dreamspeed_core_init' );
+
 // WP-CLI
 if ( defined('WP_CLI') && WP_CLI ) {
 	include( 'wp-cli.php' );
