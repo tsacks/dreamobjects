@@ -58,6 +58,7 @@ if ( is_admin() && ( !defined( 'DOING_AJAX' ) || !DOING_AJAX ) ) {
 	}
 }
 
+require_once 'vendor/aws/aws-autoloader.php';
 require_once 'classes/plugin-base.php';
 require_once 'classes/dreamobjects.php';
 //require_once 'backups/backup-base.php';
