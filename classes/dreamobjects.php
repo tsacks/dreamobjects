@@ -12,7 +12,9 @@
 
 */
 
-use Aws\Common\Aws as AwsDHO;
+if ( !Aws || !AwsCDN ) {
+	use Aws\Common\Aws as Aws;
+}
 
 class DreamObjects_DHO_Services extends DreamObjects_Plugin_Base {
 
@@ -127,7 +129,7 @@ class DreamObjects_DHO_Services extends DreamObjects_Plugin_Base {
 			    'base_url' => 'http://objects.dreamhost.com',
 			);
 			$args = apply_filters( 'aws_get_client_args', $args );
-			$this->client = AwsDHO::factory( $args );
+			$this->client = Aws::factory( $args );
 		}
 
 		return $this->client;
