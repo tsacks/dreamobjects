@@ -396,7 +396,7 @@ class DHDOSET {
 			$retainarray = DHDOSET::get_retain();
 			$retain = sanitize_text_field($input);
 				
-			if ( $input !== $retain || !array_key_exists( $retain, $retainarray )  ) {
+			if ( $input !== $retain || !in_array( $retain, $retainarray )  ) {
 				$error = true;
 				$string = __('Invalid retention option.', 'dreamobjects');
 			}
